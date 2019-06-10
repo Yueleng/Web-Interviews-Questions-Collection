@@ -1,4 +1,5 @@
-# Javscript
+# Javscript Basic and Medium
+
 
 ## [JavaScript Object](https://www.w3schools.com/js/js_object_definition.asp)
 ## [JavaScript Object Prototypes, w3schools](https://www.w3schools.com/js/js_object_prototypes.asp)
@@ -15,3 +16,10 @@
 # HTML
 
 # CSS
+
+
+# Javscript Advanced Topic
+
+## [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+
+## [The 80/20 Guide to Async/Await in Node.js](http://thecodebarbarian.com/80-20-guide-to-async-await-in-node.js.html)
