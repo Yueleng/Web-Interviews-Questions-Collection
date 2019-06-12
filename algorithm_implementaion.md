@@ -47,7 +47,7 @@ var removeDuplicates = function(nums) {
 
 * Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
 
-* You may not engage in multiple transactions at the same day and you must sell the stock before you buy again).
+* You may not engage in multiple transactions at the same day and you must sell the stock before you buy again.
 
 ### Example
 
@@ -63,15 +63,17 @@ var removeDuplicates = function(nums) {
 var maxProfit = function(prices) {
     var currentIndex = 0
     var currentProfit = 0
+    if (prices.length == 0)
+        return currentProfit
     for (var i = 0; i < prices.length - 1; i++) {
-        if (prices[i+1] > prices[i]) 
+        if (prices[i+1] > prices[i])
             continue
         else {
             currentProfit += Math.max(0, prices[i] - prices[currentIndex])
             currentIndex = i + 1
         }
     }
-    currentProfit += Math.max(0, prices[i+1] - prices[currentIndex])
+    currentProfit += Math.max(0, prices[i] - prices[currentIndex])
     return currentProfit
 }
 ```
