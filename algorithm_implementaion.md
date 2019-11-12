@@ -77,3 +77,28 @@ var maxProfit = function(prices) {
     return currentProfit
 }
 ```
+
+## Add Two Numbers
+### https://leetcode.com/problems/add-two-numbers/
+
+## LCA (Lowest Common Ancestor)
+### https://leetcode.com/problemslowest-common-ancestor-of-a-binary-tree/submissions/
+
+## Reverse Pairs
+### https://www.lintcode.com/problem/reverse-pairs/description
+### https://www.jiuzhang.com/solutions/reverse-pairs/
+
+## LRU
+### http://www.lintcode.com/zh-cn/problem/lru-cache/
+### https://www.jiuzhang.com/solutions/lru-cache/
+
+## Quicksort
+### See lecture notes on Week3
+
+## Quickselect
+### See lecture notes on Week3
+
+## Quicksort duplicates
+### See lecture notes on Week3
+
+## 
